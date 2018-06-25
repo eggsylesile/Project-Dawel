@@ -28,7 +28,7 @@ void setup() {
 
 
 void loop() {
-  while(digitalRead(RED) == HIGH) // RED loop 
+  if(digitalRead(RED) == HIGH) // RED loop 
   {
     digitalWrite(segA, HIGH);
     digitalWrite(segB, HIGH);
@@ -121,7 +121,7 @@ void loop() {
     delay(1000);
  }// end of RED Loop
 
- while(digitalRead(GREEN) == HIGH) //Start Green Loop
+ if(digitalRead(GREEN) == HIGH) //Start Green Loop
  {
   for(int g=15;g>=1;g--)
   {

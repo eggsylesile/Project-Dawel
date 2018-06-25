@@ -37,7 +37,7 @@ void loop() {
     digitalWrite(segE, HIGH);
     digitalWrite(segF, HIGH);
     digitalWrite(segG, LOW);
-    delay(100);
+    delay(1000);
 
     digitalWrite(segA, HIGH);
     digitalWrite(segB, HIGH);
@@ -46,7 +46,7 @@ void loop() {
     digitalWrite(segE, LOW);
     digitalWrite(segF, HIGH);
     digitalWrite(segG, HIGH);
-    delay(100);
+    delay(1000);
 
     digitalWrite(segA, HIGH);
     digitalWrite(segB, HIGH);
@@ -55,7 +55,7 @@ void loop() {
     digitalWrite(segE, HIGH);
     digitalWrite(segF, HIGH);
     digitalWrite(segG, HIGH);
-    delay(100);
+    delay(1000);
     
     digitalWrite(segA, HIGH);
     digitalWrite(segB, HIGH);
@@ -64,7 +64,7 @@ void loop() {
     digitalWrite(segE, LOW);
     digitalWrite(segF, LOW);
     digitalWrite(segG, LOW);
-    delay(100);
+    delay(1000);
     
     digitalWrite(segA, HIGH);
     digitalWrite(segB, LOW);
@@ -73,7 +73,7 @@ void loop() {
     digitalWrite(segE, HIGH);
     digitalWrite(segF, HIGH);
     digitalWrite(segG, HIGH);
-    delay(100);
+    delay(1000);
     
     digitalWrite(segA, HIGH);
     digitalWrite(segB, LOW);
@@ -82,7 +82,7 @@ void loop() {
     digitalWrite(segE, LOW);
     digitalWrite(segF, HIGH);
     digitalWrite(segG, HIGH);
-    delay(100);
+    delay(1000);
     
     digitalWrite(segA, LOW);
     digitalWrite(segB, HIGH);
@@ -91,7 +91,7 @@ void loop() {
     digitalWrite(segE, LOW);
     digitalWrite(segF, HIGH);
     digitalWrite(segG, HIGH);
-    delay(100);
+    delay(1000);
     
     digitalWrite(segA, HIGH);
     digitalWrite(segB, HIGH);
@@ -100,7 +100,7 @@ void loop() {
     digitalWrite(segE, LOW);
     digitalWrite(segF, LOW);
     digitalWrite(segG, HIGH);
-    delay(100);
+    delay(1000);
     
     digitalWrite(segA, HIGH);
     digitalWrite(segB, HIGH);
@@ -109,7 +109,7 @@ void loop() {
     digitalWrite(segE, HIGH);
     digitalWrite(segF, LOW);
     digitalWrite(segG, HIGH);
-    delay(100);
+    delay(1000);
     
     digitalWrite(segA, LOW);
     digitalWrite(segB, HIGH);
@@ -118,7 +118,7 @@ void loop() {
     digitalWrite(segE, LOW);
     digitalWrite(segF, LOW);
     digitalWrite(segG, LOW);
-    delay(100);
+    delay(1000);
  }// end of RED Loop
 
  while(digitalRead(GREEN) == HIGH) //Start Green Loop
@@ -135,7 +135,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 14:
@@ -146,7 +146,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 13:
@@ -157,7 +157,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, LOW);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 12:
@@ -168,7 +168,7 @@ void loop() {
         digitalWrite(segE, HIGH);
         digitalWrite(segF, LOW);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 11:
@@ -179,7 +179,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, LOW);
         digitalWrite(segG, LOW);
-        delay(100);
+        delay(1000);
         break;
 
       case 10:
@@ -190,7 +190,7 @@ void loop() {
         digitalWrite(segE, HIGH);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, LOW);
-        delay(100);
+        delay(1000);
         break;
 
       case 9:
@@ -201,7 +201,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 8:
@@ -212,7 +212,7 @@ void loop() {
         digitalWrite(segE, HIGH);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 7:
@@ -223,7 +223,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, LOW);
         digitalWrite(segG, LOW);
-        delay(100);
+        delay(1000);
         break;
 
       case 6:
@@ -234,7 +234,7 @@ void loop() {
         digitalWrite(segE, HIGH);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 5:
@@ -245,7 +245,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 4:
@@ -256,7 +256,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 3:
@@ -267,7 +267,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, LOW);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 2:
@@ -278,7 +278,7 @@ void loop() {
         digitalWrite(segE, HIGH);
         digitalWrite(segF, LOW);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
       case 1:
@@ -289,7 +289,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, LOW);
         digitalWrite(segG, LOW);
-        delay(100);
+        delay(1000);
         break;
 
         break;
@@ -312,7 +312,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, HIGH);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
         case 3: //when y value is 3 show "3" on disp
@@ -323,7 +323,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, LOW);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
         case 2: //when y value is 2 show "2" on disp
@@ -334,7 +334,7 @@ void loop() {
         digitalWrite(segE, HIGH);
         digitalWrite(segF, LOW);
         digitalWrite(segG, HIGH);
-        delay(100);
+        delay(1000);
         break;
 
         case 1: //when y value is 1 show "1" on disp
@@ -345,7 +345,7 @@ void loop() {
         digitalWrite(segE, LOW);
         digitalWrite(segF, LOW);
         digitalWrite(segG, LOW);
-        delay(100);
+        delay(1000);
         break;
 
         break;
